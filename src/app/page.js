@@ -120,7 +120,7 @@ const DiabetesPrediction = () => {
 
     try {
       const response = await fetch(
-        "https://diabetes-prediction-model-1-917b.onrender.com/predict",
+        "https://diabetes-prediction-model1.onrender.com/predict",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
